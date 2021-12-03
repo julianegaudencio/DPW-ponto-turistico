@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url(img/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/*************  CABEÇALHO *************/
+
+.menu a {
+    color: rgb(77, 61, 48);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: -80px 30px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu img {
+    width: 80px;
+    margin: 25px;
+}
+
+.menu h1 {
+    text-transform: uppercase;
+    color: rgb(77, 61, 48);
+    margin: 55px 300px;
+}
+
+/************ CONTEUDO HOME **************/
+
+.conteudo {
+    text-align: center;
+
+}
+
+.conteudo h2 {
+    color: rgb(77, 61, 48);
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.conteudo h3 {
+    color: rgb(77, 61, 48);
+    margin: 50px 50px 10px;
+}
+
+.conteudo img {
+    width: 700px;
+    border-radius: 5px;
+}
+
+.conteudo p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    color: rgb(77, 61, 48);
+}
