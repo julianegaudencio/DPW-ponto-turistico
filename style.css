@@ -10,7 +10,7 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-/*************  CABEÇALHO *************/
+/************* CABEÇALHO *************/
 
 .menu a {
     color: rgb(77, 61, 48);
@@ -40,7 +40,7 @@ body {
     margin: 55px 300px;
 }
 
-/************ CONTEUDO HOME **************/
+/************ HOME/HISTORIA/PT **************/
 
 .conteudo {
    display: flex;
@@ -96,6 +96,23 @@ blockquote {
     color: rgb(24, 19, 14);
     font-family: 'Merriweather Sans';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************ FINAL **********/
 
 footer p {
     font-size: 12px;
