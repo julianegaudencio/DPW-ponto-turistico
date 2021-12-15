@@ -19,6 +19,13 @@ body {
     margin-left: 20px;
 }
 
+.menu a:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(122, 98, 77, 0.384);
+    transition: 0.5s;
+}
+
 .menu ul {
     display: flex;
     justify-content: flex-end;
@@ -40,6 +47,47 @@ body {
     margin: 55px 300px;
 }
 
+/************** INDICE **************/
+
+.indice {
+    position: fixed;
+    top: 180px;
+    left: 80%;
+
+    background-color: rgba(172, 141, 115, 0.185);
+    width: 255px;
+    margin-left: 25px;
+    padding: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.indice h2 {
+    color: rgb(77, 61, 48);
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.indice a {
+    line-height: 20px;
+    margin-left: 5px;
+  
+    color:rgb(24, 19, 14);
+}
+
+.indice a:hover {
+    padding: 3px;
+    border-radius: 2px;
+    background-color: rgb(77, 61, 48);
+  
+    color: rgb(255, 255, 255);
+}
+
+.indice li {
+    list-style: none;
+}
+
 /************ HOME/HISTORIA/PT **************/
 
 .conteudo {
@@ -52,7 +100,7 @@ body {
 .conteudo h2 {
     color: rgb(77, 61, 48);
     text-transform: uppercase;
-    margin-top: 100px;
+    margin-top: -20px;
     margin-left: 50px;
 }
 
